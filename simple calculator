@@ -1,0 +1,6 @@
+def calculator(x,y,op):
+    if(op == "+" and type(x) == type(y) == int): return x + y
+    if(op == '*'): return x * y
+    if(op == '/'): return x / y
+    if(op == '-'): return x - y
+    return 'unknown value'
