@@ -1,0 +1,4 @@
+class Sleigh(object):
+    def authenticate(self, name, password):
+        if "Santa Claus" in name and "Ho Ho Ho!" in password: return True
+        return False
