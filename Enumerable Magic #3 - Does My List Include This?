@@ -1,0 +1,3 @@
+def include(arr,item):
+    if item in arr: return(True)
+    if item not in arr: return(False)
